@@ -1,0 +1,15 @@
+CC = g++
+CFLAGS = -c -g -Og -std=c++11
+OBJ = StrUniqueBlob.o TestUniqueStrBlob.o 
+DEPS = 
+LIBS =
+EXE = TestUniqueStrBlob
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(EXE) $(LIBS)
+
+%.o: %.cpp $(DEPS)
+	$(CC) $(CFLAGS) -o $@ $<
+
+clean:
+	rm -f $(OBJ) $(EXE)

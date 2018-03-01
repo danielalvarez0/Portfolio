@@ -1,0 +1,15 @@
+Name: Daniel Alvarez
+Time Invested: too much (5+ hours)
+
+In this project I created a class that used recursion to repeatedly create and 
+draw triangles in order to display a Sierpinski fractal. This project was fairly easy 
+for me outline. I knew what I wanted to code to be doing and the recursion aspect
+ was not difficult. The parts of this assignment I had the most trouble with were
+ implementing draw() so my class could extend sf::Drawable and creating the makefile.
+ Writing the code for draw went fine, but getting the function declaration
+ written and formatted correctly took a great deal of trial and error (minor typos are 
+the bane of my draw function's existence). The makefile was difficult because it has been 
+almost a year since I have done anything with makefiles and I still rusty.
+
+The second fractal was much easier and I did not encounter any major difficulties while implementing it. I chose a sierpinski carpet as the fractal pattern I would implement.
+
